@@ -1,0 +1,246 @@
+
+body{
+    margin-left: 5rem;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+    background: linear-gradient(to right,
+    #F8FCFA 0%,
+    #F8FCFA 50%,
+    #4ca772 50%,
+    #4ca772 100%
+
+    );
+}
+
+.nav p{
+    color: #CFCFCF;
+}
+.nav a{
+    color: #4ca772;
+}
+
+.nav{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.sidepagetext span{
+    font-size: 3rem;
+}
+
+.sidepagetext p{
+    color: #CFCFCF;
+    font-size: small;
+}
+
+button{
+    color: #fff;
+    padding: 10px;
+    background-color: #4CA772;
+    border: none;
+    border-radius: 5px;
+}
+.signup{
+    display: grid;
+    gap: 10px;
+    width: 60%;
+    border-color: #4ca772;
+  
+}
+
+input{
+    padding: 15px;
+    background-color: transparent;
+
+}
+
+
+
+input[type=text] {
+    border: 1px solid #4ca772;
+    border-radius: 4px;
+   
+  }
+
+input[type=text]:focus {
+    border: 1px solid #CFCFCF;
+    outline: none;
+}
+
+.signup p{
+    text-align: center;
+    font-size: small;
+    color: #CFCFCF;
+    position: relative;
+}
+
+.signup p:before{
+    content: "";
+    display: block;
+    width:120px;
+    height: 1px;
+    background: #CFCFCF;
+    position:absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+  
+
+}
+
+.signup p:after{
+    content: "";
+    display: block;
+    width:120px;
+    height: 1px;
+    background: #CFCFCF;
+    position:absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+.signup span{
+    background: #F8FCFA;
+}
+
+.fa-brands{
+    color: #3b5998;
+    /* height: 50px; */
+    padding-top: 10px;
+
+}
+.sociallinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.getstartedpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sidepage2{
+    background-image: url(images/Maskoup.png);
+}
+
+.sidepage2text h3{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.sidepage2text {
+    margin: 4rem;
+}
+
+.sidepage2text i{
+    font-size: 2rem;
+    background-color: #FFB425;
+    color: #fff;
+    border: 1px solid #FFB425;
+    border-radius: 90%;
+}
+
+.sidepage2text p{
+    color: #F8FCFA;
+    font-size: smaller;
+}
+
+.floatimg{
+    display: flex;
+}
+
+.verifiedtutor{
+    margin-left: 5rem;
+    width: 30px;
+    height: 50px;
+    /* position: relative; */
+}
+
+.tutorname{
+    color: #fff;
+    font-size: small;
+    /* float: right; */
+    /* position: absolute; */
+    /* left:850; */
+    /* top: 500; */
+}
+
+@media (max-width:480px) {
+    body{
+        /* margin-left: 2rem; */
+        /* margin: auto; */
+        background: linear-gradient(to bottom,
+        #F8FCFA 0%,
+        #F8FCFA 57%,
+        #4ca772 50%,
+        #4ca772 100%
+    
+        );
+        
+    }
+
+    .nav{
+        font-size: xx-small;
+        text-align: center;
+    }
+
+    .sidepagetext span{
+        font-size: large;
+        text-align: center;
+   
+    }
+
+   .sidepagetext  p{
+       
+        font-size: small;
+        width: 100%;
+        /* background-color: #fff000; */
+    }
+
+    input{
+        width: 100%;
+        padding: 10px;
+        
+    }
+
+    .sidepage2text {
+        margin: 1rem;
+    }
+
+    .sidepage2text i{
+        font-size: smaller;
+    }
+
+    .sidepage2text p{
+        color: #F8FCFA;
+        font-size: xx-small;
+        width: 100%;
+        height: 100;
+    }
+
+    
+.sidepage2text h3{
+    color: #fff;
+    font-size: larger;
+    height: 100;
+    width: 100;
+    /* background-color: red; */
+}
+
+.verifiedtutor{
+    margin-left: 2rem;
+    
+}
+
+.tutorname{
+    color: #fff;
+    font-size: small;
+    text-align: center;
+}
+.getstartedpage{
+    display: table;
+    /* margin: auto; */
+}
+
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+
+body{
+    margin-left: 80px;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+    background: linear-gradient(to right,
+    #F8FCFA 0%,
+    #F8FCFA 50%,
+    #4ca772 50%,
+    #4ca772 100%
+
+    );
+}
+
+
+.nav p{
+    color: #CFCFCF;
+}
+.nav a{
+    color: #4ca772;
+}
+.nav{
+    margin-top: 40px;
+    /* margin-bottom: 2.5rem; */
+}
+
+.sidepagetext span{
+    font-size: 48px;
+}
+
+
+.sidepagetext p{
+    color: #CFCFCF;
+    font-size: small;
+}
+
+button{
+    color: #fff;
+    padding: 15px;
+    background-color: #4CA772;
+    border: none;
+    border-radius: 5px;
+}
+
+.signin{
+    display: grid;
+    gap: 10px;
+    width: 60%;
+}
+
+
+
+input{
+    padding: 15px;
+    background-color: transparent;
+}
+
+
+input[type=text] {
+    border: 1px solid #4ca772;
+    border-radius: 4px; 
+}
+ 
+input[type=text]:focus {
+    border: 1px solid #CFCFCF;
+    outline: none;
+} 
+
+/* side 1 ends here */
+
+.loginpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sidepage2{
+    background-image: url(images/Maskoup.png);
+}
+
+
+.sidepage2text h3{
+    color: #fff;
+    font-size: 48px;
+}
+
+.sidepage2text {
+    margin: 48px;
+}
+
+
+.sidepage2text i{
+    font-size: 32px;
+    background-color: #FFB425;
+    color: #fff;
+    border: 1px solid #FFB425;
+    border-radius: 90%;
+}
+
+.sidepage2text p{
+    color: #F8FCFA;
+    font-size: smaller;
+}
+
+.floatimg{
+    display: flex;
+}
+
+.verifiedtutor{
+    margin-left: 48px;
+    width: 30px;
+    height: 50px;
+}
+
+.tutorname{
+    color: #fff;
+    font-size: small;
+}
+
+@media screen and (max-width:480px ) {
+    body{
+        margin-left: 2rem;
+        text-align: center;
+        /* margin: auto; */
+        background: linear-gradient(to bottom,
+        #F8FCFA 0%,
+        #F8FCFA 50%,
+        #4ca772 50%,
+        #4ca772 100%
+    
+        ); 
+    }
+}
+@media screen and (max-width:480px){
+    .sidepagetext span{
+        font-size: 24px;
+    }
+    .sidepagetext{
+        text-align: center;
+    }
+}
+@media screen and (max-width:480px){
+    .signin{
+        /* width:100%; */
+        margin: auto;
+        
+    }
+}
+@media screen and (max-width:480px) {
+    .sidepage2text h3{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:480px) {
+    .sidepaage2text{
+        margin: 10;
+        
+    }
+    .sidepage2text i{
+        font-size: 16px;
+    }
+    .loginpage{
+        display: table;
+    }
+    .sidepage2{
+
+        margin-top: 6rem;
+        margin-left: -50;
+    }
+    .sidepage2{
+        background-image: url(images/Maskoup.png);
+        background-size: contain;
+    }
+    
+
+}
