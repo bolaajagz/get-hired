@@ -5,12 +5,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 body{
     background-color: #F8FCFA;
-
 }
 
 
@@ -32,7 +30,6 @@ body{
 .navlinks{
     display: flex;
     align-items: center;
-
 }
 
 
@@ -87,19 +84,15 @@ body{
 } */
 .background{
     height: 300px;
-    /* width: ; */
-    
 }
 
 .herosection .imagegirl{
     width: 450px;
     height: 450px;
     position: absolute;
-    /* top: 3; */
     left: 350px;
     margin-left: 450px;
     margin-top: -100px;
-    
 }
 
 .herosection .herotext h3{
@@ -109,8 +102,6 @@ body{
     height: 30%;
     font-size: 35px;
     word-spacing: 10px;
-  
-
 }
 
 .herotext p{
@@ -228,19 +219,18 @@ height: 62px;
     margin-left: -60;
 }
 
-.yellow{
+/* .yellow{
     position: absolute;
     bottom: -1050;
     left: 90;
     z-index: 2;
-}
- .green{
+} */
+ /* .green{
     margin-left: 3rem;
-    /* z-index: 100; */
-    /* position: absolute;
-    bottom: -1000; */
-
-}
+    z-index: 100;
+    position: absolute;
+    bottom: -1000;
+} */
 span{
     width:119px;
     height:123px;
@@ -249,7 +239,6 @@ span{
     left: 90;
     bottom: -890;
     z-index: -1;
-
 }
 
 .getatutor{
@@ -262,7 +251,6 @@ span{
     margin-top: 10%;
     margin-right: 20%;
     /* margin-left: 10%; */
-  
 }
 .tutortext h3{
     font-size: 40px;
@@ -286,8 +274,7 @@ font-size: 20px;
 
 .becameatutortext{
     margin-top: 10%;
-    margin-left: 3rem;
-    
+    margin-left: 3rem;  
 }
 
 .becameatutortext  h3{
@@ -307,7 +294,6 @@ font-size: 20px;
     margin-top: 10%;
     margin-right:20%;
     margin-left: -40%;
-
 }
 
 .green1{
@@ -315,7 +301,7 @@ font-size: 20px;
     z-index: -100;
     top: 2000;
     right: 170;
-
+    display: none;
 }
 
 
@@ -383,8 +369,7 @@ font-size: 20px;
     right: 200;
     margin-right: 50;
     width: 300px;
-   top: 50px;
-    
+   top: 50px;   
 }
 
 .applestore{
@@ -561,9 +546,9 @@ table{
             .herosection .herotext p{
                 margin-top: 10px;
                 word-spacing: 0;
-                width:100%;
+                width:90%;
                 /* border-style: solid; */
-                font-size:x-small;
+                font-size:small;
             }
           
             .herovisuals{
@@ -674,14 +659,14 @@ table{
 
                 /* } */
                 #tutorbuton{
-                    position: absolute;
-                    top: 1600;
-                    left: 100;
+                    position:relative;
+                    top: -70px;
+                    left: 28px;
                 }
                 #tutorbutton{
-                    position: absolute;
-                    top: 1580;
-                    left:110;
+                    position: relative;
+                    top: -70;
+                    left:50px;
                 }
              
                     .finegirl{
@@ -696,13 +681,9 @@ table{
                     .becameatutortext h3{
                         font-size: 25px;
                         width: 210px;
-                        
-                        
-                       
                     }
                     .becomeatutor{
-                        margin: 10px;
-                        
+                        margin: 10px; 
                     }
                 
                     .becameatutortext p{
@@ -712,19 +693,20 @@ table{
                        
                     }
                     .green1{
-                        display: none;
+                        display:none;
                     }
                 
                     
                     .becameatutortext button{
-                        position: absolute;
-                        top: 2025;           
+                        position: relative;
+                        top: -70px; 
+                        left: 30px;          
                      }
-                     /* #tutorbuton1{
-                        position: absolute;
-                        top: 1600;
+                     #tutorbuton10{
+                        position: relative;
+                        top: -70px;
                         left: 10;
-                    } */
+                    }
 
                   
                         .gridcontainer{
