@@ -236,7 +236,7 @@ table{
        /* transform: translateX(100%); */
         background-color: #fff;
         height: 100vh;
-        width: 20%;
+        /* width: 20%; */
         margin-top: 1rem;
        transition: 0.9s ease-in-out;
        z-index: 1;

@@ -584,13 +584,13 @@ table{
                margin-top: 1rem;
                padding: 5px;
                position: absolute;
-               right: 39px;
+               right: 20px;
                top: 100;
            }
            .buttoncomponent1{
                padding: 5px;
                position: absolute;
-               right: 50px;
+               right: 35px;
                top: 50px;
            }
            .sponsoredsection{
@@ -780,6 +780,7 @@ table{
                                  }
                                  .aboutsection p{
                                      margin: 1rem;
+                                     text-align: center;
                                  }
                                  .aboutsection h3{
                                      margin: 1rem;

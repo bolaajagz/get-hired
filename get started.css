@@ -180,6 +180,10 @@ input[type=text]:focus {
         
     }
 
+    .navlogo{
+        width: 50px;
+    }
+
     .nav{
         font-size: xx-small;
         text-align: center;

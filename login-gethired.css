@@ -153,6 +153,11 @@ input[type=text]:focus {
     }
 }
 @media screen and (max-width:480px) {
+.navlogo{
+    width: 50px;
+    margin-right: 300px;
+}
+
     .sidepaage2text{
         margin: 10;
         
